@@ -1,12 +1,12 @@
-package com.da.excercise1.service;
+package com.example.StudentManagement.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.da.excercise1.model.Student;
-import com.da.excercise1.repository.StudentRepository;
+import com.example.StudentManagement.model.Student;
+import com.example.StudentManagement.repository.StudentRepository;
 
 @Service
 public class StudentServiceImplement implements StudentService {
