@@ -9,7 +9,7 @@ import com.da.excercise1.model.Student;
 import com.da.excercise1.repository.StudentRepository;
 
 @Service
-public class StudentServiceImpl implements StudentService {
+public class StudentServiceImplement implements StudentService {
 	
 	@Autowired
 	private StudentRepository stuRepo;
